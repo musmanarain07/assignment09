@@ -1,0 +1,580 @@
+body{
+    margin: 0;
+}
+
+<!-------sliderCss---start---->
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+<!---------slider--css----end> 
+
+#headerbox{
+    
+}
+
+#header {
+    background-color:rgb(245, 240, 176) !important;
+    width:1000px;
+    height: 100px;
+    border: 0px solid;
+    margin: 0 auto;
+
+}
+
+#nav1 ul {
+margin-top: 40px;
+width: 300px;
+border: px solid;
+float: left;
+
+}
+
+#nav1 ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 15px;
+
+}
+
+#nav1 ul li a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+
+#navlogo ul {
+    margin-top:30px;
+    width: 350px;
+    border: px solid;
+    float: left;
+    
+    
+    }
+    
+#navlogo ul li {
+        list-style: none;
+        display: inline;
+    
+    }
+
+
+    #nav2 ul {
+        margin-top: 40px;
+        width: 200px;
+        border: px solid;
+        float:right;
+        
+        
+        
+        }
+        
+    #nav2 ul li {
+            list-style: none;
+            display: inline;
+            padding-left: 15px;
+        
+        }
+
+        #nav2 ul li a {
+         text-decoration: none;
+         color: #000;
+
+
+}
+    
+        
+
+#slider {
+    background-color: brown;
+    
+}
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+          }
+
+ .contentBox {
+    margin:0 auto;
+    width:1000px ;
+
+ }         
+
+    #content {
+        background-color: rgb(183, 206, 231);
+        height: 220px;
+        margin: 0 auto;
+
+    }
+
+    #content2 {
+        background-color: rgb(85, 119, 156);
+        height: 350px;
+        
+        
+
+    }
+
+    #cat01 {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+    
+
+
+
+    .border {
+        width:200px;
+        height: 200px;
+        border: 5px solid coral;
+        object-fit:none;
+        object-position: -80px -170px ;
+        size: 0cap;
+
+
+    }
+
+    
+
+
+    .example{
+        position:relative;
+        height: 180px;
+         width: 200px;
+         background: url("img/img/fork-it-up.jpg?tr=w-200,h-200");
+         background-siz e: cover;
+         background-repeat: no-repeat;
+         margin-left:10px;
+         margin-top: 50px;
+         float: left;
+
+         border: 5px solid rgb(211, 66, 13);
+        object-fit:none;
+        object-position: -80px -170px ;
+        size: 0cap;
+
+     }
+     
+     
+     .overlay-text{
+       background-color:rgba(255, 255, 255, 0.5);
+       padding:20px;
+       text-align:center;
+       position:absolute;
+       bottom:0px;
+       right:5px;
+     }
+
+     
+    .example2{
+        position:relative;
+        height: 180px;
+         width: 200px;
+         background: url("img/img/eyeing-you.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin-left:10px;
+         margin-top: 50px;
+         float: left;
+
+         border: 5px solid coral;
+        object-fit:none;
+        object-position: -80px -170px ;
+        size: 0cap;
+
+     }
+     
+     
+     .overlay-text2{
+       background-color:rgba(255, 255, 255, 0.5);
+       padding:20px;
+       text-align:center;
+       position:absolute;
+       bottom:0px;
+       right:5px;
+     }
+
+     .example3{
+        position:relative;
+        height: 180px;
+         width: 200px;
+         background: url("img/img/lets-scoot.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin-left: 10px;
+         margin-top: 50px;
+         float: left;
+
+         border: 5px solid rgb(4, 236, 225);
+        object-fit:none;
+        object-position: -80px -170px ;
+        size: 0cap;
+
+     }
+     
+     
+     .overlay-text3{
+       background-color:rgba(255, 255, 255, 0.5);
+       padding:20px;
+       text-align:center;
+       position:absolute;
+       bottom:0px;
+       right:5px;
+     }
+
+     #FeaturedPrint {
+        margin: 0 auto;
+        width:auto;
+        margin-top: 0px;
+        background-color: rgb(233, 245, 247);
+        height: auto;
+        
+        
+    }
+     
+     .example4{
+        position:relative;
+        height: 500px;
+         width: 1000px;
+         background: url("img/img/too-cool-740.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin:0 auto;
+        
+         border: 5px solid coral;
+        object-fit:none;
+        object-position: -80px -170px ;
+        size: 0cap;
+
+     }
+     
+     
+     .overlay-text4{
+       background-color:rgba(255, 255, 255, 0.5);
+       padding:20px;
+       text-align:center;
+       position:relative;
+       top:430px;
+       right:5px;
+     }
+
+
+     #cat02 {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+
+    #content3 {
+        background-color: rgb(233, 245, 247);
+        height: 300px;
+        margin: 0px;
+        
+        
+
+    }
+
+    
+    
+    .example5{
+        position:relative;
+        height: 180px;
+         width: 200px;
+         background: url("img/img/pop-art.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin-left: 10px;
+         margin-top: 10px;
+         float: left;
+
+         border: 5px solid  rgb(236, 116, 4);
+        object-fit:none;
+        object-position: -80px -170px ;
+        size: 0cap;
+
+     }
+     
+     
+     .overlay-text5{
+       background-color:rgba(255, 255, 255, 0.5);
+       padding:20px;
+       text-align:center;
+       position:absolute;
+       bottom:0px;
+       right:5px;
+     }
+
+
+     .example6{
+        position:relative;
+        height: 180px;
+         width: 200px;
+         background: url("img/img/abstract.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin-left: 10px;
+         margin-top: 10px;
+         float: left;
+
+         border: 5px solid rgb(32, 65, 102);
+        object-fit:none;
+        object-position: -80px -170px ;
+        size: 0cap;
+
+     }
+     
+     
+     .overlay-text6{
+       background-color:rgba(255, 255, 255, 0.5);
+       padding:20px;
+       text-align:center;
+       position:absolute;
+       bottom:0px;
+       right:5px;
+     }
+
+     .example7{
+        position:relative;
+        height: 180px;
+         width: 200px;
+         background: url("img/img/vivid.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin-left: 10px;
+         margin-top: 10px;
+         float: left;
+
+         border: 5px solid rgb(236, 155, 4);
+        object-fit:none;
+        object-position: -80px -170px ;
+        size: 0cap;
+
+     }
+     
+     
+     .overlay-text7{
+       background-color:rgba(255, 255, 255, 0.5);
+       padding:20px;
+       text-align:center;
+       position:absolute;
+       bottom:0px;
+       right:5px;
+     }
+
+     #content4 {
+        background-color: rgb(233, 245, 247);
+        height: 300px;
+        margin-top: 0px;
+        
+        
+
+    }
+
+
+
+     #cat03 {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+     .example8{
+        position:relative;
+        height: 180px;
+         width: 200px;
+         background: url("img/img/music.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin-left: 10px;
+         margin-top: 10px;
+         float: left;
+
+         border: 5px solid rgb(236, 89, 4);
+        object-fit:none;
+        object-position: -80px -170px ;
+        size: 0cap;
+
+     }
+     
+     
+     .overlay-text8{
+       background-color:rgba(255, 255, 255, 0.5);
+       padding:20px;
+       text-align:center;
+       position:absolute;
+       bottom:0px;
+       right:5px;
+     }
+
+
+     .example9{
+        position:relative;
+        height: 180px;
+         width: 200px;
+         background: url("img/img/vehicles.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin-left: 10px;
+         margin-top: 10px;
+         float: left;
+
+         border: 5px solid rgb(153, 230, 185);
+        object-fit:none;
+        object-position: -80px -170px ;
+        size: 0cap;
+
+     }
+     
+     
+     .overlay-text9{
+       background-color:rgba(255, 255, 255, 0.5);
+       padding:20px;
+       text-align:center;
+       position:absolute;
+       bottom:0px;
+       right:5px;
+     }
+
+     
+     .example10{
+        position:relative;
+        height: 180px;
+         width: 200px;
+         background: url("img/img/landscape.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin-left: 10px;
+         margin-top: 10px;
+         float: left;
+
+         border: 5px solid rgb(4, 170, 236);
+        object-fit:none;
+        object-position: -80px -170px ;
+        size: 0cap;
+
+     }
+     
+     
+     .overlay-text10{
+       background-color:rgba(255, 255, 255, 0.5);
+       padding:20px;
+       text-align:center;
+       position:absolute;
+       bottom:0px;
+       right:5px;
+     }
+
+
+     #footerWrap {
+        width: 0 auto;
+        height:100px;
+        background-color: rgba(241, 231, 172, 0.945);
+
+     }
+
+     #col01 {
+        width: 200px;
+        padding-left: 250px;
+        float: left;
+        font-size: 12px;
+
+     }
+
+
+     #col02 {
+        width: 200px;
+        padding:0px;
+        float: left;
+        font-size: 12px;
+
+     }
